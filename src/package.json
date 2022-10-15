@@ -1,0 +1,35 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Engineering Team Profile Generator for Assignment 10",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm i jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensational11/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "node.js",
+    "commnd-line",
+    "assignment-10",
+    "team-profile-generator",
+    "software-engineering",
+    "jest",
+    "test",
+    "inquirer"
+  ],
+  "author": "M.Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sensational11/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/sensational11/Team-Profile-Generator#readme",
+  "dependencies": {
+    "jest": "^29.2.0"
+  }
+}
