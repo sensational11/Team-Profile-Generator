@@ -109,7 +109,7 @@ const internQuestions = () => {
   ]);
 };
 
-managerPrompt();
+internQuestions();
 // ask the user for a managers info
 
 // create a list to hold the emp
