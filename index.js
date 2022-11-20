@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+
 const inquirer = require("inquirer");
 const generateHTML = require("./src/page-template");
 const Manager = require("./lib/Manager");
