@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateHTML = require("./src/page-template");
-const Manager = require("../lib/Manager");
-const Engineer = require("../lib/Engineer");
-const Intern = require("../lib/Intern");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 
 const teamMembers = [];
 const managerQuestions = () => {
@@ -41,7 +41,7 @@ const managerQuestions = () => {
   ]);
 };
 
-managerPrompt();
+managerQuestions();
 
 const engineerMember = [];
 const engineerQuestions = () => {
@@ -78,7 +78,7 @@ const engineerQuestions = () => {
   ]);
 };
 
-engineerPrompt();
+engineerQuestions();
 
 const internMember = [];
 const internQuestions = () => {
