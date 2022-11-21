@@ -1,3 +1,4 @@
+//dependencies
 const inquirer = require('inquirer');
 const path = require("path");
 
@@ -9,7 +10,7 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 
 const teamMembers = [];
-
+//inquirer prompts
 const managerQuestions = () => {
   return inquirer.prompt([
     {
