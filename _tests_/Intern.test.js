@@ -1,11 +1,9 @@
-const Intern = require("../lib/Intern.js");
+const Intern = require("../lib/Intern");
 
-test("this test is for the intern portion", () => {
-  const intern = new intern(
-    "Piccolo",
-    4578,
-    "piccolothegoat@gmail.com",
-    "Tuskgee University "
-  );
-  expect(intern.school).toEqual(expext.any(string));
+test("this is for the intern portion", () => {
+  const intern = new Intern("Piccolo", 4578, "piccolothegoat@gmail.com", "Tuskgee University");
+
+  expect(intern.school).toEqual(expect.any(String));
 });
+
+
